@@ -13,12 +13,18 @@ Ce projet est une implémentation d'un cube 3D utilisant la technique du raycast
 Fonctionne sur MacOS
 
 1. Clonez ce dépôt sur votre machine :
+    ```
     git clone <lien vers le dépôt Git>
-2. Lancer le make :
+    ```
+3. Lancer le make :
+    ```
     cd Cub3D
     make
-3. lancer le jeu:
+    ```
+4. lancer le jeu:
+   ```
     ./cub3D map/map.cub
+   ```
 
 Vous pouvez utiliser les touches WASD pour vous déplacer, les touches fléchées pour tourner la caméra, et la touche ESC pour quitter le jeu.
 
