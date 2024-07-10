@@ -1,36 +1,38 @@
-# Cube 3D avec Raycasting
+# Cube 3D with Raycasting
 
-Ce projet est une implémentation d'un cube 3D utilisant la technique du raycasting pour simuler une vue en trois dimensions dans une fenêtre 2D.
+This project is an implementation of a 3D cube using raycasting technique to simulate a three-dimensional view in a 2D window.
 
-## Fonctionnalités
+## Features
 
-- Affichage d'un cube en 3D dans une fenêtre graphique.
-- Utilisation du raycasting pour déterminer les distances entre la caméra et les murs du cube.
-- Gestion des contrôles de déplacement pour naviguer autour du cube.
+** Display of a 3D cube in a graphical window.
+** Use of raycasting to determine distances between the camera and the walls of the cube.
+** Handling of movement controls to navigate around the cube.
 
 ## Installation
 
-Fonctionne sur MacOS
+Works on MacOS
 
-1. Clonez ce dépôt sur votre machine :
+1. Clone this repository to your machine:
+    ```sh
+    git clone <repository link>
     ```
-    git clone <lien vers le dépôt Git>
-    ```
-3. Lancer le make :
-    ```
+3. Navigate to the project directory:
+    ```sh
     cd Cub3D
+    ```
+4. Compile the project by running:
+    ```sh
     make
     ```
-4. lancer le jeu:
-   ```
+5. Launch the game:
+   ```sh
     ./cub3D map/map.cub
    ```
 
-Vous pouvez utiliser les touches WASD pour vous déplacer, les touches fléchées pour tourner la caméra, et la touche ESC pour quitter le jeu.
+You can use WASD keys to move, arrow keys to turn the camera, and ESC key to quit the game.
 
-## Explication du Raycasting
+## Explanation of Raycasting
 
-Le raycasting est une technique utilisée pour simuler la projection de rayons lumineux à partir d'un point de vue (la caméra) et détecter les intersections avec des objets tridimensionnels (dans ce cas, les murs du cube). En utilisant le raycasting, nous pouvons calculer la distance entre la caméra et chaque mur du cube, ce qui nous permet de générer une image 2D représentant une vue en perspective du cube.
+Raycasting is a technique used to simulate the projection of light rays from a viewpoint (the camera) and detect intersections with three-dimensional objects (in this case, the walls of the cube). By using raycasting, we can calculate the distance between the camera and each wall of the cube, allowing us to generate a 2D image representing a perspective view of the cube.
 
-Dans ce projet, le raycasting est utilisé pour déterminer la distance entre la caméra et les murs du cube en lançant des rayons dans différentes directions depuis la position de la caméra. En mesurant la distance jusqu'à ce qu'un rayon intersecte un mur, nous pouvons déterminer la position relative du mur par rapport à la caméra et afficher le cube en conséquence.
-
+In this project, raycasting is used to determine the distance between the camera and the walls of the cube by casting rays in different directions from the camera's position. By measuring the distance until a ray intersects with a wall, we can determine the relative position of the wall to the camera and display the cube accordingly.
