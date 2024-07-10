@@ -4,9 +4,9 @@ This project is an implementation of a 3D cube using raycasting technique to sim
 
 ## Features
 
-** Display of a 3D cube in a graphical window.
-** Use of raycasting to determine distances between the camera and the walls of the cube.
-** Handling of movement controls to navigate around the cube.
+- **Display of a 3D cube in a graphical window.**
+- **Use of raycasting to determine distances between the camera and the walls of the cube.**
+- **Handling of movement controls to navigate around the cube.**
 
 ## Installation
 
