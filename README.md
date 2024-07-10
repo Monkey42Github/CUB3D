@@ -36,3 +36,7 @@ You can use WASD keys to move, arrow keys to turn the camera, and ESC key to qui
 Raycasting is a technique used to simulate the projection of light rays from a viewpoint (the camera) and detect intersections with three-dimensional objects (in this case, the walls of the cube). By using raycasting, we can calculate the distance between the camera and each wall of the cube, allowing us to generate a 2D image representing a perspective view of the cube.
 
 In this project, raycasting is used to determine the distance between the camera and the walls of the cube by casting rays in different directions from the camera's position. By measuring the distance until a ray intersects with a wall, we can determine the relative position of the wall to the camera and display the cube accordingly.
+
+## Contributors
+[pschemit](https://github.com/pschemit)
+[yboughan](https://github.com/YoussefBOUGHANMI)
