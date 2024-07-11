@@ -38,5 +38,6 @@ Raycasting is a technique used to simulate the projection of light rays from a v
 In this project, raycasting is used to determine the distance between the camera and the walls of the cube by casting rays in different directions from the camera's position. By measuring the distance until a ray intersects with a wall, we can determine the relative position of the wall to the camera and display the cube accordingly.
 
 ## Contributors
-[pschemit](https://github.com/pschemit)
+[pschemit](https://github.com/Monkey42Github)
+
 [yboughan](https://github.com/YoussefBOUGHANMI)
