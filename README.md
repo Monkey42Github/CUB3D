@@ -1,5 +1,7 @@
 # Cube 3D with Raycasting
 
+![cube](https://github.com/user-attachments/assets/ae652ed7-8ffd-46bc-92f7-f84f0ae781d5)
+
 This project is an implementation of a 3D cube using raycasting technique to simulate a three-dimensional view in a 2D window.
 
 ## Features
